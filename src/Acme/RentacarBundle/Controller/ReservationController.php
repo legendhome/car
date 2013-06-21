@@ -26,51 +26,50 @@ class ReservationController extends AppController
     {
         $retun array();
     }
+
+    /*
+     * @Route("/new", name="reservation_new")
+     * @Template
+     */
+    public function newAction(Request $request)
+    {
+        return array();
+    }
+
+    /*
+     * @Route("/car", name="reservation_car")
+     * @Template
+     */
+    public function carAction(Request $request)
+    {
+        return array();
+    }
+
+    /*
+     * @Route("/option", name="reservation_optin")
+     * @Template
+     */
+    public function optionAction(Request $request)
+    {
+        return array();
+    }
+
+    /*
+     * @Route("/confirm", name="reservation_confirm")
+     * @Template
+     */
+    public function confirmAction(Request $request)
+    {
+        return array();
+    }
+
+    /*
+     * @Route("/finish", name="reservation_finish")
+     * @Template
+     */
+    public function finishAction(Request $request)
+    {
+        return array();
+    }
+
 }
-
-
-/*
- * @Route("/new", name="reservation_new")
- * @Template
- */
-public function newAction(Request $request)
-{
-    return array();
-}
-
-/*
- * @Route("/car", name="reservation_car")
- * @Template
- */
-public function carAction(Request $request)
-{
-    return array();
-}
-
-/*
- * @Route("/option", name="reservation_optin")
- * @Template
- */
-public function optionAction(Request $request)
-{
-    return array();
-}
-
-/*
- * @Route("/confirm", name="reservation_confirm")
- * @Template
- */
-public function confirmAction(Request $request)
-{
-    return array();
-}
-
-/*
- * @Route("/finish", name="reservation_finish")
- * @Template
- */
-public function finishAction(Request $request)
-{
-    return array();
-}
-

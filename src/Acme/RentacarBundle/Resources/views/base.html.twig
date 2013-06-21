@@ -32,12 +32,39 @@
                             <li class="{% if menu == 'home' %}active{% end %}">
                                 <a href="{% path('homepage') %}"ホーム</a>
                             </li>
+                            <li class="{% if menu == 'reservation' %}active{% end %}">
+                                <a href="{% path('reservation_new') %}"予約</a>
+                            </li>
                         </ul>
                     {% endblock %}
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="container main-container">
+        <div class="content">
+            {% block header %}
+                <div class="page-header">
+                    <h1>
+                        {% block page_title %}{% endblock page_titile %}
+                    </h1>
+                </div>
+            {% endblock header %}
+
+            <div class="row">
+                <div class="span10">
+                {% block content %}{% endblock content %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="copyright">&copy; 2013 Company</p>
+    </footer>
+
+    {% block javascript %}{% endblock javascripts %}
 
 </body>
 </html>
