@@ -2,6 +2,7 @@ Symfony Standard Edition
 ========================
 
 変更しました
+追加をしました 05/28 20:13
 
 Welcome to the Symfony Standard Edition - a fully-functional Symfony2
 application that you can use as the skeleton for your new applications.
