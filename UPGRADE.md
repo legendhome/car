@@ -3,6 +3,7 @@ Symfony Standard Edition Upgrade
 
 From Symfony 2.0 to Symfony 2.1
 -------------------------------
+修正しました！！
 
 ### Project Dependencies
 
